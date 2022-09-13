@@ -1,0 +1,17 @@
+version: "3.8"  # optional since v1.27.0
+services:
+  pytorch:
+    stdin_open: true
+    tty: true   
+    volumes:
+      - /home/user/RMOT:/RMOT
+      - /home/user/Multi_Object_tracking_Data:/RMOT/dataset
+    image: pytorch/pytorch:1.11.0-cuda11.3-cudnn8-devel
+    deploy:
+      resources:
+        reservations:
+          devices: 
+            - capabilities: [gpu]
+
+
+# /etc/apt:/home/etc/apt -e DISPLAY=:10.0 --net=host -v $HOME/.Xauthority:/root/.Xauthority
