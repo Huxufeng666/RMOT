@@ -1,1 +1,9 @@
 dataset
+__pycache__/
+*.pth
+*.train
+exps/
+build/
+*.egg
+*.egg-info
+*.mp4
