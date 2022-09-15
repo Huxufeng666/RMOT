@@ -99,7 +99,7 @@ class DetMOTDetection:
         img_path = self.img_files[idx]
         label_path = self.label_files[idx]
         if 'crowdhuman' in img_path:
-            img_path = img_path.replace('.jpg', '.png')
+            img_path = img_path.replace('.png','.jpg')
         img = Image.open(img_path)
         targets = {}
         w, h = img._size
