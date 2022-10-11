@@ -9,5 +9,6 @@ build/
 *.mp4
 crowdhuman
 MOT17
+MOT15
 .txt
-yolo5
+yolov5
