@@ -11,6 +11,7 @@ crowdhuman
 MOT17
 MOT15
 .txt
+runs
 yolov5
 yolov7
 eval_log.txt
