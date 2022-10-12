@@ -12,3 +12,5 @@ MOT17
 MOT15
 .txt
 yolov5
+yolov7
+eval_log.txt
