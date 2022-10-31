@@ -13,5 +13,6 @@ MOT15
 .txt
 runs
 yolov5
-yolov7
 eval_log.txt
+yolov7
+exps_1
